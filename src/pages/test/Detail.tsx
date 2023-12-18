@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
-import bg from "../../Assets/775118.jpg";
 import { useEffect, useState } from "react";
-import { getData, getOneByID } from "../../APIs/API";
+import { getOneByID } from "../../APIs/API";
 
 export const Detail = () => {
   const [state, setState]: any = useState({});
